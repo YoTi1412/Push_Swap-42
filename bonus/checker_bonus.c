@@ -20,6 +20,8 @@ void	check_sub(t_list **a, t_list **b, char *line)
 		rrb(b, 1);
 	else if (line[2] == 'r')
 		rrr(a, b, 1);
+  else
+    ft_error_msg();
 }
 
 char	*ft_check(t_list **a, t_list **b, char *line)
